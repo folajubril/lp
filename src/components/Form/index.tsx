@@ -9,7 +9,7 @@ export default function Form() {
   return (
     <>
       {!submitted ? (
-        <div className="flex items-start gap-[16px] mt-[74px] self-center">
+        <div className="flex items-start gap-[16px] mt-[174px] self-center">
           <div className="flex flex-col w-[309px] h-[240px] top-0 gap-[16px]">
             <p className="text-[72px] font-normal text-[#202022] leading-[80px]">
               Contact sales
