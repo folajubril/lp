@@ -3,7 +3,7 @@ import Image from "next/image";
 import Logo from "@/components/SVGs/logo"
 export default function Header() {
   return (
-    <div className="flex justify-between h-[64px] w-full py-[12px] px-[64px] items-center">
+    <div className="flex justify-between h-[64px] w-full py-[12px] px-[64px] items-center fixed bg-white">
       <Logo/>
       <div className="flex gap-[16px]">
 <p className="text-[14px] font-medium text-[#464649] font-PPfonts hover:scale-110 cursor-pointer">Products</p>
