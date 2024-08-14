@@ -89,7 +89,7 @@ export default function Form() {
               bg={"#f2f2f3"}
               className="rounded-[6px] h-[56px] "
             />
-            <button onClick={() => setSubmitted(true)} className="bg-[#824FE7] h-[36px] w-[106px] py-[8px]  text-[13px] text-[#FEFEFF] rounded-[6px]">
+            <button onClick={() => setSubmitted(true)} className="cursor-pointer hover:scale-105 bg-[#824FE7] h-[36px] w-[106px] py-[8px]  text-[13px] text-[#FEFEFF] rounded-[6px]">
               Contact Sales
             </button>
           </div>

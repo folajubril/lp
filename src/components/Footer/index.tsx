@@ -16,42 +16,42 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-[24px] mr-[50px]">
           <p className="text-xs font-medium text-[#909092]">RESOURCES</p>
-          <p className="text-[13px] font-medium text-[#464649] leading-[20px]">
+          <p className="text-[13px] font-medium text-[#464649] leading-[20px] cursor-pointer hover:scale-105">
             Products
           </p>
-          <p className="text-[13px] font-medium text-[#464649] leading-[20px]">
+          <p className="text-[13px] font-medium text-[#464649] leading-[20px] cursor-pointer hover:scale-105">
             Customers
           </p>
-          <p className="text-[13px] font-medium text-[#464649] leading-[20px]">
+          <p className="text-[13px] font-medium text-[#464649] leading-[20px] cursor-pointer hover:scale-105">
             Docs
           </p>
-          <p className="text-[13px] font-medium text-[#464649] leading-[20px]">
+          <p className="text-[13px] font-medium text-[#464649] leading-[20px] cursor-pointer hover:scale-105">
             Our story
           </p>
-          <p className="text-[13px] font-medium text-[#464649]">Pricing</p>
+          <p className="text-[13px] font-medium text-[#464649] cursor-pointer hover:scale-105">Pricing</p>
         </div>
         <div className="flex flex-col gap-[24px] mr-[50px]">
           <p className="text-xs font-medium text-[#909092]">CONNECT WITH US</p>
-          <div className="text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
+          <div className="cursor-pointer hover:scale-105 text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
             <LinkedIn /> LinkedIn
           </div>
-          <div className="text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
+          <div className="cursor-pointer hover:scale-105 text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
             <Twitter />X
           </div>
-          <div className="text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
+          <div className="cursor-pointer hover:scale-105 text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
             <Youtube />
             Youtube
           </div>
-          <div className="text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
+          <div className="cursor-pointer hover:scale-105 text-[13px] font-medium text-[#464649] leading-[20px] flex items-center gap-[4px]">
             <Slack /> Slack
           </div>
         </div>
         <div className="flex flex-col gap-[24px]">
           <p className="text-xs font-medium text-[#909092]">LEGAL</p>
-          <p className="text-[13px] font-medium text-[#464649] leading-[20px]">
+          <p className="cursor-pointer hover:scale-105 text-[13px] font-medium text-[#464649] leading-[20px]">
             Terms
           </p>
-          <p className="text-[13px] font-medium text-[#464649] leading-[20px]">
+          <p className=" cursor-pointer hover:scale-105 text-[13px] font-medium text-[#464649] leading-[20px]">
             Privacy
           </p>
         </div>
